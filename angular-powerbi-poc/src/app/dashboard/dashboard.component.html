@@ -1,1 +1,18 @@
-<p>dashboard works!</p>
+<div class="header">
+    <div class="title">Angular Power BI Embed POC</div>
+</div>
+
+
+<div class="report-div" style="height: 100%">
+    <powerbi-report [embedConfig]="reportConfig" [cssClassName]="reportClass" [phasedEmbedding]="phasedEmbeddingFlag" [eventHandlers]="eventHandlersMap">
+    </powerbi-report>
+</div>
+
+
+<div class="footer">
+    <div class="footer-text">
+        <a href="https://github.com/mratanusarkar/Angular-PowerBI-POC/">
+            <div>Source Code on GitHub</div>
+        </a>
+    </div>
+</div>
