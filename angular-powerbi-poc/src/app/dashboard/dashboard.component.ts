@@ -20,7 +20,15 @@ export class DashboardComponent implements OnInit {
     id: undefined,
     embedUrl: undefined,
     accessToken: undefined,
-    tokenType: models.TokenType.Embed
+    tokenType: models.TokenType.Embed,
+    settings: {
+      filterPaneEnabled: true,
+      navContentPaneEnabled: true,
+      layoutType: models.LayoutType.Custom,
+      customLayout: {
+        displayOption: models.DisplayOption.FitToWidth
+      }
+    }
   }
 
   eventHandlersMap = new Map<string, (event?: service.ICustomEvent<any>) => void>([
