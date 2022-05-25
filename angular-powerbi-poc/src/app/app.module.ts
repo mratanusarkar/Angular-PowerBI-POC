@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 import { PowerBIEmbedModule } from 'powerbi-client-angular';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -14,6 +15,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
     PowerBIEmbedModule
   ],
   providers: [],
