@@ -4,7 +4,7 @@ Licensed under the MIT License. */
 .header {
   background: #3476ae 0 0 no-repeat padding-box;
   border: 1px solid #707070;
-  height: 55px;
+  height: 7.3vh;
 }
 
 .title {
@@ -76,7 +76,7 @@ button:hover {
 .footer {
   background: #eef3f8 0 0 no-repeat padding-box;
   bottom: 0;
-  height: 39px;
+  height: 5vh;
   opacity: 1;
   position: absolute;
   width: 100%;
@@ -99,3 +99,15 @@ button:hover {
   letter-spacing: 0;
   text-decoration: underline;
 }
+
+// .report-container {
+//   height: 800px !important;
+// }
+
+// .report-div {
+//   height: 800px !important;
+// }
+
+// iframe {
+//   height: 800px !important;
+// }

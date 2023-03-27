@@ -26,7 +26,7 @@ export class DashboardComponent implements OnInit {
       navContentPaneEnabled: true,
       layoutType: models.LayoutType.Custom,
       customLayout: {
-        displayOption: models.DisplayOption.FitToWidth
+        displayOption: models.DisplayOption.FitToPage
       }
     }
   }
